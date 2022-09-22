@@ -58,7 +58,7 @@ h1 {
 	color: var(--fg-color-brighter);
 	font-size: 53.6px;
 	margin-top: 0;
-	margin-bottom: 2px;
+	margin-bottom: -2px;
 }
 
 a {
@@ -71,7 +71,8 @@ a:hover {
 }
 
 #links {
-	margin-top: 14px;
+	margin-top: 10px;
+	margin-bottom: 32px;
 	font-size: 160%;
 	/*list-style: none;*/
 	font-family: 'Bebas Neue', sans;
