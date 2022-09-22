@@ -1,0 +1,74 @@
+:root {
+	--bg-color: #0e0021;
+	--bg-color-transparent: #0e002188;
+	--fg-color: #888a85;
+	--fg-color-brighter: #c0bbbb;
+	--accent-color: #5e5081;
+	--accent-color-bright1: #dc5e86;
+	--accent-color-bright2: #9edc60;
+}
+
+body {
+	background: var(--bg-color);
+	color: var(--fg-color);
+	font-family: 'Bitter', serif;
+	font-weight: 600;
+}
+
+#bg_container {
+	background-image: url("bg.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: top;
+	background-position-y: center;
+	position: absolute;
+	height: 100%;
+	z-index: 10;
+	width: 100%;
+}
+#content_container {
+	position: absolute;
+	z-index: 20;
+}
+
+h1 {
+	font-family: 'Bebas Neue', sans;
+	color: var(--fg-color-brighter);
+	font-size: 53.6px;
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+
+a {
+	font-weight: 900;
+	color: var(--accent-color-bright2);
+}
+
+a:hover {
+	color: var(--accent-color-bright1);
+}
+
+#links {
+	margin-top: 14px;
+	font-size: 160%;
+	/*list-style: none;*/
+	font-family: 'Bebas Neue', sans;
+}
+
+#content_container {
+	background: var(--bg-color-transparent);
+}
+
+#main_text {
+	padding: 4px 6px;
+	background: var(--fg-color);
+	color: var(--bg-color);
+	width: 384px;
+}
+
+::selection,
+::-moz-selection {
+	background: var(--accent-color-bright1);
+	color: var(--bg-color);
+}
