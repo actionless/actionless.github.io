@@ -93,8 +93,17 @@ a:hover {
 	width: 384px;
 }
 
+#logo_container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 15;
+}
 #logo {
-	width: 392px;
+	/*width: 392px;*/
+	/*width: 196px;*/
+	width: 294px;
+	opacity: 0.8;
 }
 
 ::selection,
