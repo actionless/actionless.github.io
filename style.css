@@ -71,11 +71,15 @@ a:hover {
 }
 
 #links {
-	margin-top: 10px;
-	margin-bottom: 32px;
+	margin-top: 14px;
+	margin-bottom: 28px;
 	font-size: 160%;
 	/*list-style: none;*/
 	font-family: 'Bebas Neue', sans;
+}
+#links ul{
+	margin-top: 10px;
+	margin-bottom: 14px;
 }
 
 #content_container {
@@ -87,6 +91,10 @@ a:hover {
 	background: var(--fg-color);
 	color: var(--bg-color);
 	width: 384px;
+}
+
+#logo {
+	width: 392px;
 }
 
 ::selection,
