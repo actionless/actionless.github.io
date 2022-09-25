@@ -79,10 +79,15 @@ a:hover {
 	font-size: 160%;
 	/*list-style: none;*/
 	font-family: 'Bebas Neue', sans;
+	padding: 0 6px;
+	color: var(--fg-color-brighter);
 }
 #links ul{
+	color: var(--fg-color);
 	margin-top: 10px;
+	margin-top: 0px;
 	margin-bottom: 14px;
+	padding-left: 31px;
 }
 
 #content_container {
@@ -109,7 +114,9 @@ a:hover {
 	/*width: 392px;*/
 	/*width: 196px;*/
 	width: 294px;
-	opacity: 0.8;
+	/*opacity: 0.82;*/
+	/*opacity: 0.62;*/
+	opacity: 0.66;
 }
 
 ::selection,
