@@ -33,6 +33,8 @@ body {
 }
 
 #bg_container {
+	/*background-color: #20001b;*/
+	background-color: #210122;
 	background-image: url("bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
