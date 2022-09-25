@@ -113,3 +113,8 @@ a:hover {
 	background: var(--accent-color-bright1);
 	color: var(--bg-color);
 }
+
+.emoji {
+	display: inline;
+	filter: hue-rotate(30deg);
+}
