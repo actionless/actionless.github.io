@@ -61,6 +61,7 @@ h1 {
 	font-size: 53.6px;
 	margin-top: 0;
 	margin-bottom: -2px;
+	padding: 0 6px;
 }
 
 a {
@@ -92,7 +93,10 @@ a:hover {
 	padding: 4px 6px;
 	background: var(--fg-color);
 	color: var(--bg-color);
-	width: 384px;
+}
+#main_text p {
+	display: inline;
+	vertical-align: top;
 }
 
 #logo_container {
@@ -115,6 +119,9 @@ a:hover {
 }
 
 .emoji {
-	display: inline;
+	display: inline-block;
 	filter: hue-rotate(30deg);
+	margin: 0;
+	margin-top: 1px;
+	vertical-align: bottom;
 }
