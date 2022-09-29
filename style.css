@@ -144,9 +144,9 @@ a:hover {
 	color: var(--fg-color-brighter);
 }
 
-#links .block:first-child {
-	margin-top: 8px;
-}
+/*#links .block:first-child {*/
+/*    margin-top: 8px;*/
+/*}*/
 
 #links .block {
 	margin-top: 11px;
@@ -160,4 +160,8 @@ a:hover {
 	margin-bottom: 14px;
 	margin-bottom: 0;
 	padding-left: 32px;
+	line-height: 26px;
+}
+#links ul li {
+	margin-bottom: 3px;
 }
