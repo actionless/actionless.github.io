@@ -47,12 +47,22 @@
             <a href="https://music.apple.com/us/artist/actionless-loveless/1618684804">Apple Music</a>
           </li>
           <li>
-            ACTNLZZ:<br/>
+            <span id="addr_source">ACTNLZZ</span>:<br/>
             <a href="https://open.spotify.com/artist/7dzHQ94ikuB4CNvTrGgmau">Spotify</a>,
             <a href="https://www.deezer.com/us/artist/182847477">Deezer</a>
           </li>
           <li>
             Listen to 2022 album: <a href="https://share.amuse.io/album/actionlessloveless-loveless-trash-1">Loveless Trash</a>
+          </li>
+        </ul>
+      </div>
+      <div class="block">
+        Contact:
+        <ul>
+          <li>
+            bookings, collabs,<br/>
+            sending demo to the label<br/>
+            <a href="#" id="addr_click">E-MAIL</a><span id="addr_display"></span>
           </li>
         </ul>
       </div>
@@ -62,4 +72,10 @@
     <img id="logo" src="logo.png"/>
   </div>
 </body>
+<script>
+document.getElementById("addr_click").onclick = () => {
+  const addr = document.getElementById("addr_source").innerHTML + '@gmail.com';
+  document.getElementById("addr_display").innerHTML = `: <a href="mailto:${addr}">${addr}</a>`;
+};
+</script>
 </html>
