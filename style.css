@@ -52,7 +52,7 @@
 	z-index: 20;
 	background: var(--bg-color-transparent);
 	margin-right: 8px;
-	max-width: 450px;
+	max-width: 410px;
 }
 
 #logo_container {
@@ -137,7 +137,7 @@ a:hover {
 #links {
 	margin-top: 0;
 	margin-bottom: 28px;
-	font-size: 25px;
+	font-size: 160%;
 	/*list-style: none;*/
 	font-family: 'Bebas Neue', sans;
 	padding: 0 var(--standard-padding);
