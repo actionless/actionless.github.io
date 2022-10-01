@@ -34,32 +34,34 @@
 	background-color: #210122;
 	background-image: url("bg.jpg");
 	background-size: cover;
-	/*background-repeat: no-repeat;*/
 	background-position-x: center;
 	background-position-y: top;
 	background-position-y: center;
-	position: absolute;
-	/*height: 100%;*/
+	min-height: 100%;
+	height: auto;
 	z-index: 10;
 	width: 100%;
 	left: 0;
 	bottom: 0;
 	top: 0;
 	right: 0;
+	position: absolute;
+	overflow-y: scroll;
 }
 #content_container {
-	position: absolute;
+	position: relative;
 	z-index: 20;
 	background: var(--bg-color-transparent);
-	margin-right: 8px;
+	/*margin-right: 8px;*/
+	margin: 8px;
 	max-width: 410px;
 }
 
 #logo_container {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 15;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 15;
 }
 #logo {
 	/*width: 392px;*/
@@ -150,7 +152,7 @@ a:hover {
 }
 
 /*#links .block:first-child {*/
-/*    margin-top: 8px;*/
+/*	margin-top: 8px;*/
 /*}*/
 
 #links .block {
