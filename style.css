@@ -1,18 +1,8 @@
 @font-face {
-  font-family: 'Bebas Neue';
+  font-family: 'Dosis';
   font-style: normal;
-  font-weight: 400;
   font-display: swap;
-  /*src: url(https://fonts.gstatic.com/s/bebasneue/v9/JTUSjIg69CK48gW7PXooxW4.ttf) format('truetype');*/
-  src: url("BebasNeue.woff2");
-}
-@font-face {
-  font-family: 'Bitter';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  /*src: url(https://fonts.gstatic.com/s/bitter/v28/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8fbfCL8.ttf) format('truetype');*/
-  src: url("Bitter.woff2");
+  src: url("Dosis-VariableFont_wght.ttf");
 }
 
 :root {
@@ -25,6 +15,18 @@
 	--accent-color-bright2: #9edc60;
 
 	--standard-padding: 6px;
+
+	--fw-body: 400;
+	--fw-text: 500;
+	--fw-headline: 600;
+	--fw-link: 600;
+	--fw-link: 500;
+
+	--fs-body: 20px;
+	--fs-text: 20px;
+	--fs-headline: 53px;
+	--fs-headline: 40px;
+	--fs-link: 24px;
 }
 
 /* layout */
@@ -76,24 +78,27 @@
 /* generic */
 
 body {
+	font-family: 'Dosis', sans;
 	background: var(--bg-color);
 	color: var(--fg-color);
-	font-family: 'Bitter', serif;
-	font-weight: 600;
+	font-size: var(--fs-body);
+	font-weight: var(--fw-body);
 }
 
 h1 {
-	font-family: 'Bebas Neue', sans;
+	font-family: 'Dosis', sans;
 	color: var(--fg-color-brighter);
-	font-size: 53px;
 	line-height: 45px;
 	margin-top: 8px;
-	margin-bottom: 1px;
+	margin-bottom: 3px;
 	padding: 0 var(--standard-padding);
+	text-transform: uppercase;
+	font-weight: var(--fw-headline);
+	font-size: var(--fs-headline);
 }
 
 a {
-	font-weight: 900;
+	font-weight: var(--fw-link);
 	color: var(--accent-color-bright2);
 	white-space: nowrap;
 }
@@ -128,8 +133,9 @@ a:hover {
 	padding-left: var(--standard-padding);
 	padding-right: var(--standard-padding);
 	padding-right: 8px;
-	padding-bottom: 2px;
-	font-size: 16px;
+	padding-bottom: 6px;
+	font-size: var(--fs-text);
+	font-weight: var(--fw-text);
 	line-height: 20px;
 	background: var(--fg-color);
 	color: var(--bg-color);
@@ -144,9 +150,9 @@ a:hover {
 #links {
 	margin-top: 0;
 	margin-bottom: 28px;
-	font-size: 160%;
+	font-size: var(--fs-link);
 	/*list-style: none;*/
-	font-family: 'Bebas Neue', sans;
+	font-family: 'Dosis', sans;
 	padding: 0 var(--standard-padding);
 	color: var(--fg-color-brighter);
 }
@@ -158,16 +164,18 @@ a:hover {
 #links .block {
 	margin-top: 11px;
 	margin-bottom: 0;
+	text-transform: uppercase;
 }
 
 #links ul {
+	text-transform: none;
 	color: var(--fg-color);
 	margin-top: 10px;
 	margin-top: 0;
 	margin-bottom: 14px;
 	margin-bottom: 0;
 	padding-left: 32px;
-	line-height: 26px;
+	/*line-height: 26px;*/
 }
 #links ul li {
 	margin-bottom: 3px;
