@@ -8,7 +8,7 @@
   <!--<link rel="preconnect" href="https://fonts.googleapis.com">-->
   <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
   <!--<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&display=swap" rel="stylesheet">-->
-  <meta name="viewport" content="width=425; user-scalable=yes; target-densitydpi=device-dpi;" />
+  <meta name="viewport" content="width=350; user-scalable=yes; target-densitydpi=device-dpi;" />
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     <div id="main_text">
       <p>
         This website is a work in progress right now,
-        please visit my other pages while waiting for it <span class="emoji">😺</span>
+        please visit my other pages while waiting <span class='nobr'>for it <span class="emoji">😺</span></span>
       </p>
     </div>
     <div id="links">
@@ -77,6 +77,7 @@
 document.getElementById("addr_click").onclick = () => {
   const addr = document.getElementById("addr_source").innerHTML + '@gmail.com';
   document.getElementById("addr_display").innerHTML = `: <a href="mailto:${addr}">${addr}</a>`;
+  return false;
 };
 </script>
 </html>
