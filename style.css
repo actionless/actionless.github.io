@@ -154,6 +154,7 @@ a:hover {
 	/*list-style: none;*/
 	font-family: 'Dosis', sans;
 	padding: 0 var(--standard-padding);
+	padding-top: 6px;
 	color: var(--fg-color-brighter);
 }
 
