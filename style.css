@@ -1,9 +1,10 @@
 @font-face {
-  font-family: 'Dosis';
+  font-family: 'Handjet';
   font-style: normal;
   font-display: swap;
-  src: url("Dosis-VariableFont_wght.ttf");
+  src: url("Handjet-VariableFont_ELGR,ELSH,wght.ttf");
 }
+
 
 :root {
 	--bg-color: #0e0021;
@@ -22,11 +23,18 @@
 	--fw-link: 600;
 	--fw-link: 500;
 
-	--fs-body: 20px;
-	--fs-text: 20px;
-	--fs-headline: 53px;
-	--fs-headline: 40px;
-	--fs-link: 24px;
+	/*--font-family: 'Dosis';*/
+	/*--fs-body: 20px;*/
+	/*--fs-text: 20px;*/
+	/*--fs-headline: 53px;*/
+	/*--fs-headline: 40px;*/
+	/*--fs-link: 24px;*/
+
+	--font-family: 'Handjet';
+	--fs-body: 26px;
+	--fs-text: 26px;
+	--fs-headline: 56px;
+	--fs-link: 30px;
 }
 
 /* layout */
@@ -78,7 +86,7 @@
 /* generic */
 
 body {
-	font-family: 'Dosis', sans;
+	font-family: var(--font-family), sans;
 	background: var(--bg-color);
 	color: var(--fg-color);
 	font-size: var(--fs-body);
@@ -86,7 +94,7 @@ body {
 }
 
 h1 {
-	font-family: 'Dosis', sans;
+	font-family: var(--font-family), sans;
 	color: var(--fg-color-brighter);
 	line-height: 45px;
 	margin-top: 8px;
@@ -136,7 +144,7 @@ a:hover {
 	padding-bottom: 6px;
 	font-size: var(--fs-text);
 	font-weight: var(--fw-text);
-	line-height: 20px;
+	line-height: var(--fs-text);
 	background: var(--fg-color);
 	color: var(--bg-color);
 }
@@ -152,7 +160,7 @@ a:hover {
 	margin-bottom: 28px;
 	font-size: var(--fs-link);
 	/*list-style: none;*/
-	font-family: 'Dosis', sans;
+	font-family: var(--font-family), sans;
 	padding: 0 var(--standard-padding);
 	padding-top: 6px;
 	color: var(--fg-color-brighter);
