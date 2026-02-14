@@ -15,6 +15,7 @@
 	--accent-color-bright1: #dc5e86;
 	--accent-color-bright2: #9edc60;
 	--warning-bg-color: rgba(255, 0, 125, 0.6);
+	--warning-bg-color-gradient: linear-gradient(90deg, rgba(255, 0, 125, 0.6), rgba(255, 0, 125, 0.55), rgba(255, 0, 125, 0.3));
 
 	--standard-padding: 6px;
 
@@ -213,6 +214,7 @@ a:hover {
 
 .new_release {
 	background: var(--warning-bg-color);
+	background: var(--warning-bg-color-gradient);
 	color: var(--warning-bg-color);
 	padding: 3px;
 	/*color: black;*/
