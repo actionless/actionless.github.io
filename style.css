@@ -14,6 +14,7 @@
 	--accent-color: #5e5081;
 	--accent-color-bright1: #dc5e86;
 	--accent-color-bright2: #9edc60;
+	--warning-bg-color: rgba(255, 0, 125, 0.6);
 
 	--standard-padding: 6px;
 
@@ -198,10 +199,14 @@ a:hover {
 }
 
 .new_release {
-	background: rgba(255, 0, 125, 0.7);
+	background: var(--warning-bg-color);
+	color: var(--warning-bg-color);
 	padding: 3px;
-	color: black;
+	/*color: black;*/
 	font-weight: bold;
+}
+.new_release span {
+	color: black;
 }
 
 
