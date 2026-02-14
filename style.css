@@ -196,3 +196,10 @@ a:hover {
 #links ul ul li {
 	margin-left: 29px;
 }
+
+.new_release {
+	background: rgba(255, 0, 125, 0.7);
+	padding: 3px;
+	color: black;
+	font-weight: bold;
+}
