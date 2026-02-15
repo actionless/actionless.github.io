@@ -79,7 +79,7 @@
 	/*top: max(calc(100vw - 20px), calc(100% - 20px));*/
 	float: right;
 	/*margin-top: max(calc(100vw - 40em), calc(100% - 40em));*/
-	margin-top: max(calc(100vw - 38em), calc(100% - 38em), 20px);
+	margin-top: max(calc(100vh - 47em), calc(100% - 47em), 20px);
 	position: relative;
 }
 #logo {
