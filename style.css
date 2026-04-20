@@ -54,7 +54,8 @@
 	background-position-x: center;
 	background-position-y: top;
 	background-position-y: center;
-	min-height: 100%;
+	/*min-height: 100%;*/
+	/*min-height: 100vh;*/
 	height: auto;
 	z-index: 10;
 	width: 100%;
@@ -72,6 +73,7 @@
 	/*margin-right: 8px;*/
 	margin: 8px;
 	max-width: 410px;
+	min-height: calc(100vh - 9em);
 }
 
 #logo_container {
@@ -82,8 +84,8 @@
 	margin: 0;
 
 	float: right;
-	margin-top: max(calc(100vh - 39em), 10px);
 	position: relative;
+	margin-bottom: 1em;
 }
 #logo {
 	/*width: 392px;*/
