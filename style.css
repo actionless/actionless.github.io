@@ -231,19 +231,21 @@ a:hover {
 	background: var(--warning2-bg-color);
 	background: var(--warning2-bg-color-gradient);
 }
-.new_release span.new_release {
+.new_release div.new_release {
 	padding-top: 1px;
 	padding-bottom: 1px;
 	color: var(--warning-bg-color);
 	background: #00000088;
 	font-weight: var(--fw-headline);
 }
-.new_release span.new_release::before {
+.new_release div.new_release::before {
 	content: "!!! NEW RELEASE !!!";
 }
+.new_release div,
 .new_release span {
 	color: var(--warning-fg-color);
 }
+.new_release.level2 div,
 .new_release.level2 span {
 	color: var(--warning2-fg-color);
 }
@@ -254,8 +256,12 @@ a:hover {
 .new_release a:hover {
 	background: black;
 }
-.new_release span.name {
+.new_release div.name {
 	font-weight: var(--fw-bold);
+}
+.new_release div.name::after {
+	content: ":";
+	font-weight: var(--fw-body);
 }
 
 .select-none {
