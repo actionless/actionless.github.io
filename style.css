@@ -28,6 +28,7 @@
 	--fw-headline: 600;
 	--fw-link: 600;
 	--fw-link: 500;
+	--fw-bold: 700;
 
 	/*--font-family: 'Dosis';*/
 	/*--fs-body: 20px;*/
@@ -219,8 +220,7 @@ a:hover {
 	background: var(--warning-bg-color-gradient);
 	color: var(--warning-bg-color);
 	padding: 3px;
-	/*color: black;*/
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 .new_release.level2 {
 	background: var(--warning2-bg-color);
@@ -231,6 +231,7 @@ a:hover {
 	padding-bottom: 1px;
 	color: var(--warning-bg-color);
 	background: #00000088;
+	font-weight: var(--fw-headline);
 }
 .new_release span.new_release::before {
 	content: "!!! NEW RELEASE !!!";
@@ -248,7 +249,9 @@ a:hover {
 .new_release a:hover {
 	background: black;
 }
-
+.new_release span.name {
+	font-weight: var(--fw-bold);
+}
 
 .select-none {
     -webkit-user-select: none;
