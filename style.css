@@ -14,8 +14,12 @@
 	--accent-color: #5e5081;
 	--accent-color-bright1: #dc5e86;
 	--accent-color-bright2: #9edc60;
+	--warning-fg-color: black;
 	--warning-bg-color: rgba(255, 0, 125, 0.6);
 	--warning-bg-color-gradient: linear-gradient(90deg, rgba(255, 0, 125, 0.6), rgba(255, 0, 125, 0.55), rgba(255, 0, 125, 0.3));
+	--warning2-fg-color: var(--fg-color);
+	--warning2-bg-color: rgba(255, 0, 125, 0.3);
+	--warning2-bg-color-gradient: linear-gradient(90deg, rgba(255, 0, 125, 0.3), rgba(255, 0, 125, 0.33), rgba(255, 0, 125, 0.2));
 
 	--standard-padding: 6px;
 
@@ -218,8 +222,22 @@ a:hover {
 	/*color: black;*/
 	font-weight: bold;
 }
+.new_release.level2 {
+	background: var(--warning2-bg-color);
+	background: var(--warning2-bg-color-gradient);
+}
+.new_release span.new_release {
+	color: var(--warning-bg-color);
+	background: #00000088;
+}
+.new_release span.new_release::before {
+	content: "!!! NEW RELEASE !!!";
+}
 .new_release span {
-	color: black;
+	color: var(--warning-fg-color);
+}
+.new_release.level2 span {
+	color: var(--warning2-fg-color);
 }
 .new_release a {
 	background: rgba(0, 0, 0, 0.666);
