@@ -66,6 +66,9 @@
 	position: absolute;
 	overflow-y: scroll;
 }
+#content_container_wrapper {
+	min-height: calc(100vh - 9em);
+}
 #content_container {
 	position: relative;
 	z-index: 20;
@@ -73,7 +76,7 @@
 	/*margin-right: 8px;*/
 	margin: 8px;
 	max-width: 410px;
-	min-height: calc(100vh - 9em);
+	padding-bottom: 1px;
 }
 
 #logo_container {
