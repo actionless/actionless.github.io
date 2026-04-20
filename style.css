@@ -227,6 +227,8 @@ a:hover {
 	background: var(--warning2-bg-color-gradient);
 }
 .new_release span.new_release {
+	padding-top: 1px;
+	padding-bottom: 1px;
 	color: var(--warning-bg-color);
 	background: #00000088;
 }
