@@ -256,10 +256,10 @@ a:hover {
 .new_release a:hover {
 	background: black;
 }
-.new_release div.name {
+.new_release div.project_name {
 	font-weight: var(--fw-bold);
 }
-div.name::after {
+div.project_name::after {
 	content: ":";
 	font-weight: var(--fw-body);
 }
