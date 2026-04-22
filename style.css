@@ -259,7 +259,7 @@ a:hover {
 .new_release div.name {
 	font-weight: var(--fw-bold);
 }
-.new_release div.name::after {
+div.name::after {
 	content: ":";
 	font-weight: var(--fw-body);
 }
