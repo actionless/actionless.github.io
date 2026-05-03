@@ -75,7 +75,6 @@
 	background: var(--bg-color-transparent);
 	/*margin-right: 8px;*/
 	margin: 8px;
-	max-width: 410px;
 	padding-bottom: 1px;
 }
 
@@ -89,6 +88,9 @@
 	float: right;
 	position: relative;
 	margin-bottom: 1em;
+}
+.clear {
+	clear: both;
 }
 #logo {
 	/*width: 392px;*/
@@ -171,6 +173,7 @@ a:hover {
 	line-height: var(--fs-text);
 	background: var(--fg-color);
 	color: var(--bg-color);
+	width: 390px;
 }
 
 #main_text p {
@@ -198,6 +201,10 @@ a:hover {
 	margin-top: 11px;
 	margin-bottom: 0;
 	text-transform: uppercase;
+	/*max-width: 410px;*/
+	width: 320px;
+	padding-right: 12px;
+	float: left;
 }
 
 #links ul {
