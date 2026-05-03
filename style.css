@@ -11,6 +11,8 @@
 	--bg-color-transparent: #0e002188;
 	--fg-color: #888a85;
 	--fg-color-brighter: #c0bbbb;
+	--bg-color-main: #888a85AA;
+	--fg-color-main: var(--bg-color);
 	--accent-color: #5e5081;
 	--accent-color-bright1: #dc5e86;
 	--accent-color-bright2: #9edc60;
@@ -22,6 +24,7 @@
 	--warning2-bg-color-gradient: linear-gradient(90deg, rgba(255, 0, 125, 0.3), rgba(255, 0, 125, 0.33), rgba(255, 0, 125, 0.2));
 
 	--standard-padding: 6px;
+	--block-width: 320px;
 
 	--fw-body: 400;
 	--fw-text: 500;
@@ -171,9 +174,10 @@ a:hover {
 	font-size: var(--fs-text);
 	font-weight: var(--fw-text);
 	line-height: var(--fs-text);
-	background: var(--fg-color);
-	color: var(--bg-color);
-	width: 390px;
+	background: var(--bg-color-main);
+	color: var(--fg-color-main);
+	/*width: 390px;*/
+	width: var(--block-width);
 }
 
 #main_text p {
@@ -202,8 +206,9 @@ a:hover {
 	margin-bottom: 0;
 	text-transform: uppercase;
 	/*max-width: 410px;*/
-	width: 320px;
-	padding-right: 12px;
+	width: var(--block-width);
+	/*padding-right: 12px;*/
+	padding-right: 20px;
 	float: left;
 }
 
