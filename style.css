@@ -79,6 +79,10 @@
 	--fs-link: 30px;
 
 	--font-family: 'Barlow Condensed';
+	--fs-body: 24px;
+	--fs-text: 24px;
+	--fs-headline: 54px;
+	--fs-link: 28px;
 }
 
 /* layout */
