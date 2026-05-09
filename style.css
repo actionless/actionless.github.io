@@ -55,7 +55,8 @@
 	--border-color-block: #888a8533;
 
 	--standard-padding: 6px;
-	--block-width: 324px;
+	/*--block-width: 324px;*/
+	--block-width: 290px;
 	--block-margin: 10px;
 
 	--fw-body: 400;
