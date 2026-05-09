@@ -80,10 +80,10 @@
 	--fs-link: 30px;
 
 	--font-family: 'Barlow Condensed';
-	--fs-body: 24px;
-	--fs-text: 24px;
-	--fs-headline: 54px;
-	--fs-link: 28px;
+	--fs-body: 22px;
+	--fs-text: 22px;
+	--fs-headline: 50px;
+	--fs-link: 24px;
 }
 
 /* layout */
@@ -344,5 +344,5 @@ div.project_name::after {
 .upside_down {
 	transform: rotate(180deg);
 	display: inline-block;
-	padding-bottom: 2.5px;
+	padding-bottom: 2.0px;
 }
