@@ -109,7 +109,7 @@
 	overflow-y: scroll;
 }
 #content_container_wrapper {
-	min-height: calc(100vh - 9em);
+	min-height: calc(100vh - 294px + 70px);
 }
 #content_container {
 	position: relative;
