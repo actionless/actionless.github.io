@@ -109,7 +109,7 @@
 	overflow-y: scroll;
 }
 #content_container_wrapper {
-	min-height: calc(100vh - 294px + 70px);
+	min-height: calc(100vh - 294px + 30px);
 }
 #content_container {
 	position: relative;
@@ -127,12 +127,9 @@
 	z-index: 15;
 	margin: 0;
 
-	float: right;
+	text-align: right;
 	position: relative;
 	margin-bottom: 1em;
-}
-.clear {
-	clear: both;
 }
 #logo {
 	/*width: 392px;*/
@@ -145,6 +142,7 @@
 	opacity: 0.42;
 	image-rendering: -moz-crisp-edges;
 }
+
 
 
 /* generic */
@@ -241,6 +239,13 @@ a:hover {
 	padding: 0 var(--standard-padding);
 	padding-top: 2px;
 	color: var(--fg-color-brighter);
+
+	display: flex;
+	flex-wrap: wrap;
+	/*gap: 16px;*/
+	align-items: flex-start;
+	flex: 0 1 auto;
+	transition: 1s ease-out;
 }
 
 /*#links .block:first-child {*/
@@ -255,7 +260,6 @@ a:hover {
 	width: var(--block-width);
 	/*padding-right: 12px;*/
 	padding-right: 20px;
-	float: left;
 	background: var(--bg-block-transparent);
 	margin-left: 6px;
 	margin-right: 5px;
@@ -263,8 +267,8 @@ a:hover {
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--border-color-block);
-
 }
+
 
 #links ul {
 	text-transform: none;
@@ -344,5 +348,6 @@ div.project_name::after {
 .upside_down {
 	transform: rotate(180deg);
 	display: inline-block;
-	padding-bottom: 2.0px;
+	padding-bottom: 2.35px;
+	margin-bottom: -2.35px;
 }
