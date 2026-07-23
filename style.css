@@ -193,7 +193,7 @@ body {
 
 .main_title {
 	margin: 0;
-	padding-left: var(--block-margin);
+	padding-left: calc(var(--block-margin) + 2px);
 	padding-right: var(--block-margin);
 	padding-top: var(--main-title-padding-top);
 	padding-bottom: var(--main-title-padding-bottom);
