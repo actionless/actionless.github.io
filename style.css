@@ -68,6 +68,8 @@
 	--warning2-bg-color-gradient: linear-gradient(90deg, rgba(255, 0, 125, 0.3), rgba(255, 0, 125, 0.33), rgba(255, 0, 125, 0.2));
 	--border-color-block: #888a8533;
 
+	--release-name-color: var(--fg-color-brighter);
+
 	--standard-padding: 6px;
 	/*--block-width: 324px;*/
 	--block-width: 290px;
@@ -388,6 +390,7 @@ a:hover {
 }
 div.project_name {
 	font-weight: var(--fw-bold);
+	color: var(--release-name-color);
 }
 div.project_name::after {
 	content: ":";
