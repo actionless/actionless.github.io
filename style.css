@@ -103,6 +103,7 @@
 	/*--lh-text: var(--fs-text);*/
 	/*--lh-links: "";*/
 	/*--main-text-padding-bottom: 6px;*/
+	/*--main-text-padding-top: 6px;*/
 	/*--main-title-padding-top: 4px;*/
 	/*--main-title-padding-bottom: var(--block-margin);*/
 
@@ -125,6 +126,7 @@
 	/*--fw-link: Bold;*/
 	/*--fw-bold: Bold;*/
 	/*--main-text-padding-bottom: 0;*/
+	/*--main-text-padding-top: 6px;*/
 	/*--main-title-padding-top: var(--block-margin);*/
 	/*--main-title-padding-bottom: 0;*/
 
@@ -134,9 +136,12 @@
 	--fw-headline: 400;
 	--fw-link: 400;
 	--fw-bold: 500;
+	--lh-text: 22px;
 	--main-title-padding-top: calc(var(--block-margin) / 2);
-	--main-text-padding-bottom: calc(var(--block-margin) / 2);
 	--main-title-padding-bottom: var(--block-margin);
+	--main-text-padding-top: calc(var(--block-margin) / 2);
+	/*--main-text-padding-bottom: calc(var(--block-margin) / 2);*/
+	--main-text-padding-bottom: 0;
 
 }
 
@@ -245,8 +250,9 @@ a:hover {
 	display: inline-block;
 	filter: hue-rotate(30deg);
 	margin: 0;
-	margin-top: 1px;
-	vertical-align: bottom;
+	/*margin-top: 1px;*/
+	vertical-align: middle;
+	padding-bottom: 9px;
 }
 
 .nobr {
@@ -263,7 +269,7 @@ a:hover {
 /* specific areas */
 
 #main_text {
-	padding-top: 6px;
+	padding-top: var(--main-text-padding-top);
 	padding-left: var(--standard-padding);
 	padding-right: var(--standard-padding);
 	padding-right: 8px;
