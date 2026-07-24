@@ -34,13 +34,19 @@
 /*  src: url("BarlowCondensed-Bold.ttf");*/
 /*}*/
 
+/*@font-face {*/
+/*  font-family: 'Opinion Pro Condensed';*/
+/*  font-style: normal;*/
+/*  font-display: swap;*/
+/*  src: url("OpinionProCondensed.otf");*/
+/*}*/
+
 @font-face {
-  font-family: 'Opinion Pro Condensed';
+  font-family: 'Oswald';
   font-style: normal;
   font-display: swap;
-  src: url("OpinionProCondensed.otf");
+  src: url("Oswald-VariableFont_wght.ttf");
 }
-
 
 :root {
 	--bg-color: #0e0021;
@@ -67,12 +73,12 @@
 	--block-width: 290px;
 	--block-margin: 10px;
 
-	--fw-body: 400;
-	--fw-text: 500;
-	--fw-headline: 600;
-	/*--fw-link: 600;*/
-	--fw-link: 500;
-	--fw-bold: 700;
+	/*--fw-body: 400;*/
+	/*--fw-text: 500;*/
+	/*--fw-headline: 600;*/
+	/*[>--fw-link: 600;<]*/
+	/*--fw-link: 500;*/
+	/*--fw-bold: 700;*/
 
 	/*--font-family: 'Dosis';*/
 	/*--fs-body: 20px;*/
@@ -101,7 +107,7 @@
 	/*--font-family: 'Fira Sans Compressed';*/
 	/*--font-family: 'Input Sans Compressed';*/
 
-	--font-family: 'Opinion Pro Condensed';
+	/*--font-family: 'Opinion Pro Condensed';*/
 	/*--font-family: 'Opinion Pro ExtraCondensed';*/
 	/**/
 	--fs-headline: 46px;
@@ -111,14 +117,24 @@
 	--lh-text: 28px;
 	--lh-links: 26px;
 	/**/
-	--fw-body: Light;
-	--fw-text: Bold;
-	--fw-headline: Bold;
-	--fw-link: Bold;
-	--fw-bold: Bold;
-	--main-text-padding-bottom: 0;
-	--main-title-padding-top: var(--block-margin);
-	--main-title-padding-bottom: 0;
+	/*--fw-body: Light;*/
+	/*--fw-text: Bold;*/
+	/*--fw-headline: Bold;*/
+	/*--fw-link: Bold;*/
+	/*--fw-bold: Bold;*/
+	/*--main-text-padding-bottom: 0;*/
+	/*--main-title-padding-top: var(--block-margin);*/
+	/*--main-title-padding-bottom: 0;*/
+
+	--font-family: 'Oswald';
+	--fw-body: 400;
+	--fw-text: 400;
+	--fw-headline: 400;
+	--fw-link: 400;
+	--fw-bold: 500;
+	--main-title-padding-top: calc(var(--block-margin) / 2);
+	--main-text-padding-bottom: calc(var(--block-margin) / 2);
+	--main-title-padding-bottom: var(--block-margin);
 
 }
 
