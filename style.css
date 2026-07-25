@@ -360,6 +360,9 @@ a:hover {
 #links ul ul li {
 	margin-left: 29px;
 }
+#links ul > li {
+	margin-top: 10px;
+}
 
 .new_release_subblock {
 	background: var(--warning-bg-color);
