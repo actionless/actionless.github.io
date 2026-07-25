@@ -412,6 +412,12 @@ div.project_name::after {
 	font-weight: var(--fw-body);
 	/*font-weight: var(--fw-bold);*/
 }
+.block .genre::before {
+	content: "(";
+}
+.block .genre::after {
+	content: ")";
+}
 
 .select-none {
     -webkit-user-select: none;
